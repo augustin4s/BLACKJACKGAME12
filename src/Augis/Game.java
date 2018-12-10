@@ -1,12 +1,13 @@
 package Augis;
 
 import java.util.ArrayList;
+import java.util.List;
 
 import static Augis.Main.newDeck;
 
 public class Game {
     private static Game game;
-    private ArrayList<Person> players;
+    private List<Person> players = new ArrayList<>();
     private Deck deck;
 
     public Game() {
@@ -21,7 +22,6 @@ public class Game {
     }
 
     private void paruostiZaidima() {
-        players = new ArrayList<Person>();
         players.add(new Player());
         players.add(new Dealer());
     }

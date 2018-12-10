@@ -9,7 +9,6 @@ public abstract class Person {
     public Person() {
         hand = new ArrayList<Cards>();
         this.total = 0;
-
     }
 
     public Cards getCard(Cards card){

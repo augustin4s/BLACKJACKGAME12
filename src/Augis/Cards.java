@@ -10,7 +10,6 @@ public class Cards {
         this.value = value;
         this.type = type;
         this.symbol = symbol;
-
     }
 
     public static Cards createCard(int value, String type, String symbol){
@@ -27,14 +26,5 @@ public class Cards {
 
     public String getSymbol() {
         return symbol;
-    }
-
-    @Override
-    public String toString() {
-        return "Cards{" +
-                "value=" + value +
-                ", type='" + type + '\'' +
-                ", symbol='" + symbol + '\'' +
-                '}';
     }
 }
